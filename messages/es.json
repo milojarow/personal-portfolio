@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "Rolando Ahuja Martínez — Ingeniero full-stack",
+    "description": "Ingeniero full-stack construyendo sistemas en producción de punta a punta — desde namespaces del kernel de Linux hasta paneles de administración con IA. Nuevo Laredo, México."
+  },
+  "nav": {
+    "home": "Inicio",
+    "work": "Trabajo",
+    "notes": "Notas",
+    "cv": "CV",
+    "about": "Sobre mí"
+  },
+  "home": {
+    "name": "Rolando Ahuja Martínez",
+    "positioning": "Ingeniero full-stack. Construyo SaaS en producción de punta a punta — redes Linux, bases de datos, autenticación, integración con IA, herramientas internas, UI/UX.",
+    "availability": "Disponible para nuevos proyectos.",
+    "location": "Nuevo Laredo, Tamaulipas · México",
+    "selectedWorkHeading": "Trabajo seleccionado",
+    "recentNotesHeading": "Notas recientes",
+    "viewAllWork": "Ver todo el trabajo",
+    "viewAllNotes": "Ver todas las notas",
+    "aboutHeading": "Sobre mí",
+    "aboutParagraph1": "Ingeniero mecatrónico de formación, moldeado por la manufactura. Como process engineer en Modine Heat Transfer trabajé en líneas de radiadores para John Deere, Caterpillar y Tesla Model X — flow charts, modos de falla, planes de control, fixtures de retrabajo diseñados en Solid Edge. Ese mundo me enseñó a modelar problemas antes de tocarlos: PFMEA, Ishikawa, 8D, la disciplina de entender un sistema antes de cambiarlo.",
+    "aboutParagraph2": "El software llegó después, autodidacta. La transición no fue limpia pero los instintos se quedaron. Hoy la misma disciplina aparece en docs-as-code, en nombrar pipelines con modelos mentales (fábrica, tren, reconciliador), en cuidar la teoría del color y los pairings tipográficos tanto como los flujos de autenticación y los pipelines RAG. Ingeniería es ingeniería — el medio cambia, el método no.",
+    "aboutParagraph3": "Ahora shipeo SaaS en producción para clientes reales. Full-stack, independiente, bilingüe. Cada sistema que construyo es de extremo a extremo: yo soy dueño del namespace de Linux, la base de datos, el auth, el UI, la pipeline de deploy. Si necesitas a alguien que pueda cerrar el loop completo, deberíamos hablar."
+  },
+  "work": {
+    "heading": "Trabajo",
+    "intro": "Todos los proyectos, agrupados. Los tres destacados aparecen en la página de inicio.",
+    "categories": {
+      "saas": "SaaS en producción",
+      "internal": "Herramientas internas",
+      "client": "Sitios de cliente",
+      "experiments": "Experimentos"
+    },
+    "externalLinkLabel": "Abrir",
+    "projects": {
+      "blindando": {
+        "title": "Blindando Sueños",
+        "summary": "SaaS para aseguradora — panel admin con tabs (posts, sesiones de chatbot, deduplicación de contactos, calendario, auto-responder de correo con RAG), chatbots web + Instagram, pipeline automatizado de publicación en FB + IG (fábrica → tren → reconciliador), generación de imágenes OG, CDN propio.",
+        "href": "https://blindandosuenos.com"
+      },
+      "posteacasa": {
+        "title": "Postea Casa",
+        "summary": "Generador de marketing inmobiliario con IA. Wizard de 7 pasos con auto-guardado, produce PDF, correo HTML, imagen de portada y copy para redes desde un solo brief. Mapbox autocomplete, magic-link auth, sistema editorial.",
+        "href": "https://posteacasa.com"
+      },
+      "s45-panel": {
+        "title": "S45 Panel",
+        "summary": "Panel local para manejar sesiones de navegación aisladas con VPN en Linux. Cada cliente tiene su propio namespace de red, interface WireGuard movida desde el host, Firefox aislado. FastAPI + HTMX, estado derivado del sistema en vivo.",
+        "href": "https://github.com/milojarow/s45-panel"
+      },
+      "finanzas": {
+        "title": "Finanzas",
+        "summary": "Asistente financiero personal con IA. Agente MCP conectado a una instancia self-hosted de Firefly III con memoria persistente, detección automática de hábitos, manejo multi-moneda y planificación de deuda método avalancha.",
+        "href": ""
+      },
+      "luna": {
+        "title": "Luna CDN",
+        "summary": "CDN propio de media en luna.solutions45.com. Endpoints de upload/delete con autenticación por API key, almacenamiento de blobs, es la columna vertebral de imágenes del resto de los proyectos.",
+        "href": "https://cdn.solutions45.com"
+      },
+      "barrera-lara": {
+        "title": "Dr. Barrera Lara",
+        "summary": "Sitio clínico bilingüe para una práctica de medicina estética. Next.js 16 con next-intl, routing localizado, galerías de fotos por tratamiento, agendado de citas.",
+        "href": ""
+      },
+      "gosen": {
+        "title": "Centro Cristiano Gosen",
+        "summary": "Sitio de iglesia con horarios de servicio, librería de sermones y eventos. Vite + React.",
+        "href": ""
+      },
+      "camioncito": {
+        "title": "El Camioncito",
+        "summary": "Sitio de marketing para taquería local. Next.js con menú, ubicación y contacto.",
+        "href": ""
+      },
+      "tacos-manantial": {
+        "title": "Tacos Manantial",
+        "summary": "Landing de taquería. Vite + React, mobile-first, layout centrado en el menú.",
+        "href": ""
+      },
+      "arreglos-florales": {
+        "title": "Arreglos Florales",
+        "summary": "Sitio de catálogo y toma de pedidos para florería. Next.js 15 con diccionarios y middleware.",
+        "href": ""
+      },
+      "gocha": {
+        "title": "gocha",
+        "summary": "Herramientas TypeScript experimentales sobre el runtime Bun con Biome como linter/formatter. Sandbox de toolchain JS moderno.",
+        "href": ""
+      },
+      "claude-monitor": {
+        "title": "claude-monitor",
+        "summary": "Monitor ligero para sesiones locales de Claude — trackea actividad, parsea transcripts, expone telemetría a una barra de widgets.",
+        "href": ""
+      }
+    }
+  },
+  "notes": {
+    "heading": "Notas",
+    "intro": "Escritura técnica desde el terreno. Larga cuando hace falta, breve cuando no.",
+    "readingTimeSuffix": "min de lectura",
+    "emptyState": "Aún no hay notas publicadas.",
+    "fallbackNotice": "Por ahora solo disponible en inglés.",
+    "backToIndex": "← Todas las notas"
+  },
+  "cv": {
+    "heading": "Currículum",
+    "download": "Descargar PDF"
+  },
+  "footer": {
+    "contactHeading": "Contacto",
+    "email": "ahujarolando@gmail.com",
+    "whatsapp": "+52 867 181 2166",
+    "telegram": "@milojarow",
+    "github": "github.com/milojarow",
+    "colophon": "Cormorant Garamond + Plus Jakarta Sans · OKLCH triádica, acento levantado por tema · Next.js 16 + Tailwind 4 + DaisyUI 5 · Deploy en Vercel",
+    "copyright": "© {year} Rolando Ahuja Martínez"
+  },
+  "theme": {
+    "toggleLabel": "Cambiar tema",
+    "light": "Claro",
+    "dark": "Oscuro"
+  },
+  "lang": {
+    "label": "Idioma",
+    "en": "EN",
+    "es": "ES"
+  }
+}

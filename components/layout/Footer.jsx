@@ -159,7 +159,18 @@ export default function Footer() {
         </section>
         <hr className="border-base-300" />
         <section className="text-xs text-base-content/55 space-y-1">
-          <p>{t("copyright", { year })}</p>
+          <p>
+            {t("licenseLabel", { year })}
+            <a
+              href="https://github.com/milojarow/personal-portfolio/blob/main/LICENSE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mono hover:text-accent transition-colors"
+            >
+              {t("licenseName")}
+            </a>
+            {t("licenseSuffix")}
+          </p>
           <p>{t("colophon")}</p>
         </section>
       </div>

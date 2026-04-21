@@ -98,7 +98,10 @@
     "telegram": "@milojarow",
     "github": "github.com/milojarow",
     "colophon": "Cormorant Garamond + Plus Jakarta Sans · OKLCH triádica, acento levantado por tema · Next.js 16 + Tailwind 4 + DaisyUI 5 · Deploy en Vercel",
-    "copyright": "© {year} Rolando Ahuja Martínez"
+    "copyright": "© {year} Rolando Ahuja Martínez",
+    "licenseLabel": "Copyleft Ↄ {year} Rolando Ahuja Martínez — código liberado bajo la ",
+    "licenseName": "GNU General Public License v3.0",
+    "licenseSuffix": "."
   },
   "theme": {
     "toggleLabel": "Cambiar tema",

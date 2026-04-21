@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d3a4a"/>
+      <stop offset="55%" stop-color="#147b90"/>
+      <stop offset="100%" stop-color="#05202a"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="0.75" cy="0.25" r="0.7">
+      <stop offset="0%" stop-color="#7fd3e3" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#7fd3e3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="overlay2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#000" stop-opacity="0.62"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.88"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1350" fill="url(#bg2)"/>
+  <rect width="1080" height="1350" fill="url(#glow2)"/>
+  <path d="M 0 300 Q 540 200 1080 340 L 1080 0 L 0 0 Z" fill="#ffffff" fill-opacity="0.05"/>
+  <path d="M 0 900 Q 540 1000 1080 880 L 1080 1350 L 0 1350 Z" fill="#000" fill-opacity="0.15"/>
+  <rect width="1080" height="1350" fill="url(#overlay2)"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif" fill="#fff">
+    <text x="80" y="720" font-size="28" font-weight="600" letter-spacing="6" fill="#9fe1ea" opacity="0.92">SEGURO MÉDICO</text>
+    <text x="80" y="810" font-size="74" font-weight="700" letter-spacing="-2">Gastos médicos</text>
+    <text x="80" y="900" font-size="74" font-weight="700" letter-spacing="-2">mayores cubiertos</text>
+    <text x="80" y="990" font-size="74" font-weight="700" letter-spacing="-2">al 100%.</text>
+    <line x1="80" y1="1070" x2="220" y2="1070" stroke="#9fe1ea" stroke-width="3" opacity="0.7"/>
+    <text x="80" y="1270" font-size="22" font-weight="600" letter-spacing="4" opacity="0.75">ACME SEGUROS</text>
+  </g>
+</svg>

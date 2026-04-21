@@ -49,6 +49,15 @@ export default async function HomePage({ params }) {
                   {chunks}
                 </a>
               ),
+              ejemplo: (chunks) => (
+                <a
+                  href="https://www.instagram.com/p/DW-EReZD_ht/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {chunks}
+                </a>
+              ),
               chatbots: (chunks) => (
                 <Link href="/notes/n8n-chatbots-before-claude-code">
                   {chunks}

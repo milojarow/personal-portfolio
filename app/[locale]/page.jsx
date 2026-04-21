@@ -22,6 +22,54 @@ export default async function HomePage({ params }) {
       <section id="welcome" className="section">
         <div className="body-prose">
           <p>{t("welcomeBody1")}</p>
+          <p>
+            {t.rich("welcomeBody2", {
+              icarus: (chunks) => (
+                <Link href="/notes/icarus-black-box">{chunks}</Link>
+              ),
+            })}
+          </p>
+          <p>
+            {t.rich("welcomeBody3", {
+              posteacasa: (chunks) => (
+                <a
+                  href="https://posteacasa.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {chunks}
+                </a>
+              ),
+              blindando: (chunks) => (
+                <a
+                  href="https://blindandosuenos.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {chunks}
+                </a>
+              ),
+              chatbots: (chunks) => (
+                <Link href="/notes/n8n-chatbots-before-claude-code">
+                  {chunks}
+                </Link>
+              ),
+            })}
+          </p>
+          <p>
+            {t.rich("welcomeBody4", {
+              telegram: (chunks) => (
+                <a
+                  href="https://t.me/milojarow"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {chunks}
+                </a>
+              ),
+              discord: (chunks) => <code>{chunks}</code>,
+            })}
+          </p>
         </div>
       </section>
 

@@ -11,7 +11,10 @@
   },
   "home": {
     "welcomeHeading": "Welcome",
-    "welcomeBody1": "rolandoahuja.com is the personal site of Rolando Ahuja Martínez — full-stack engineer based in Nuevo Laredo, México. Bilingual (EN/ES).",
+    "welcomeBody1": "rolandoahuja.com is the site I put together to show some of the things I've built and to chat with other people about AI. Part of that is sharing what I've learned the hard way — so someone else doesn't have to.",
+    "welcomeBody2": "For example: when I started with VPS I discovered exactly how NOT to run one. I had the brilliant idea of running a Claude model on that VPS and asking it to play the part of a spaceship captain recording his final transmission before crashing — warning whoever read it about every mistake made along the way. The result is a .md file in black-box format. You can read it <icarus>here</icarus>.",
+    "welcomeBody3": "The things I consider most useful I've built so far: the Instagram post + video-tour generator of <posteacasa>posteacasa.com</posteacasa>, and the admin panel plus chatbot of <blindando>blindandosueños.com</blindando>. Today, with OpenClaw, building a chatbot isn't much of an achievement — but the one for Blindando Sueños I built <chatbots>before OpenClaw existed</chatbots>, when the only way was orchestrating nodes in n8n.",
+    "welcomeBody4": "Write me on <telegram>Telegram</telegram> or Discord (<discord>milojarow</discord>) to show off what you're doing with AI. MemPalace by Milla Jovovich just came out and I had nobody to get excited with.",
     "projectsHeading": "Projects",
     "notesHeading": "Notes",
     "toolsHeading": "Tools I use daily",

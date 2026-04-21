@@ -11,7 +11,10 @@
   },
   "home": {
     "welcomeHeading": "Bienvenido",
-    "welcomeBody1": "rolandoahuja.com es el sitio personal de Rolando Ahuja Martínez — ingeniero full-stack basado en Nuevo Laredo, México. Bilingüe (EN/ES).",
+    "welcomeBody1": "rolandoahuja.com es el sitio que armé para mostrar algunas de las cosas que he hecho y para platicar con otros sobre IA. Parte de eso es compartir lo que he aprendido por las malas — para que a alguien más no le pase lo mismo.",
+    "welcomeBody2": "Por ejemplo: cuando empecé con VPS descubrí cómo NO se administra uno. Tuve la brillante idea de correr un modelo de Claude ahí dentro y pedirle que tomara el papel de un capitán de nave espacial grabando su última transmisión antes de caer — advirtiéndole a quien lo leyera todos los errores que había cometido. El resultado quedó en un .md tipo caja negra. Se lee <icarus>aquí</icarus>.",
+    "welcomeBody3": "Las cosas que considero más útiles que he construido hasta ahora: el generador de posts y video tour en Instagram de <posteacasa>posteacasa.com</posteacasa>, y el panel de control + chatbot de <blindando>blindandosueños.com</blindando>. Hoy, con OpenClaw, construir un chatbot no es ningún logro — pero el de Blindando Sueños lo hice <chatbots>antes de que OpenClaw existiera</chatbots>, cuando la única forma era orquestar nodos en n8n.",
+    "welcomeBody4": "Escríbanme a <telegram>Telegram</telegram> o en Discord (<discord>milojarow</discord>) a presumir lo que están haciendo con IA. Hace poco salió el MemPalace de Milla Jovovich y no tenía con quién emocionarme.",
     "projectsHeading": "Proyectos",
     "notesHeading": "Notas",
     "toolsHeading": "Herramientas que uso a diario",

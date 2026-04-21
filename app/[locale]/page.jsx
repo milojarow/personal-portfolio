@@ -67,7 +67,15 @@ export default async function HomePage({ params }) {
                   {chunks}
                 </a>
               ),
-              discord: (chunks) => <code>{chunks}</code>,
+              discord: (chunks) => (
+                <a
+                  href="https://discord.com/users/milojarow"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {chunks}
+                </a>
+              ),
             })}
           </p>
         </div>

@@ -357,6 +357,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 24px;
   margin-bottom: 0.85rem;
   max-width: 68ch;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .body-prose a {
@@ -450,6 +452,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-body);
   font-size: 16px;
   font-weight: 400;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .prose-article h1 {
@@ -568,6 +572,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .social-telegram:hover {
   filter: drop-shadow(0 0 10px rgba(34, 158, 217, 0.95));
+}
+
+.social-discord {
+  color: #5865F2;
+  filter: drop-shadow(0 0 4px rgba(88, 101, 242, 0.55));
+}
+.social-discord:hover {
+  filter: drop-shadow(0 0 10px rgba(88, 101, 242, 0.95));
 }
 
 .social-github {

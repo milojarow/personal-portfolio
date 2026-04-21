@@ -35,10 +35,10 @@ export default async function NotePage({ params }) {
   ).format(new Date(note.date));
 
   return (
-    <div className="fade-in mx-auto max-w-4xl px-6 py-14">
+    <div className="fade-in">
       <Link
         href="/notes"
-        className="text-xs uppercase tracking-widest text-base-content/60 hover:text-primary transition-colors mb-10 inline-block"
+        className="text-xs uppercase tracking-widest text-base-content/60 hover:text-accent transition-colors mt-6 mb-8 inline-block"
       >
         {t("backToIndex")}
       </Link>

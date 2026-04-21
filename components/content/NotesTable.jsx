@@ -10,7 +10,7 @@ function formatDate(dateInput, locale) {
   }).format(date);
 }
 
-export default function NotesTable({ notes }) {
+export default function NotesTable({ notes, title }) {
   const t = useTranslations("notes");
   const locale = useLocale();
 
@@ -19,7 +19,14 @@ export default function NotesTable({ notes }) {
   }
 
   return (
-    <table className="data-table">
+    <table className="data-table data-table-notes">
+      {title && (
+        <thead>
+          <tr>
+            <th colSpan={2}>{title}</th>
+          </tr>
+        </thead>
+      )}
       <tbody>
         {notes.map((note) => (
           <tr key={note.slug}>

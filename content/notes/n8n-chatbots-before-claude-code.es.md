@@ -28,5 +28,3 @@ n8n me daba tres cosas que importaban:
 1. **Un debugger para todo el flujo.** Cada ejecución es reproducible. Cuando el chatbot decía algo raro, podía abrir la última corrida y ver exactamente qué nodo lo produjo, con el input y output congelados.
 2. **Una superficie de webhooks.** Mi front-end en Next.js era un proxy bobo a `/webhook/chat`. Cero backend de mi lado más allá de un fetch.
 3. **Una capa de persistencia sin ORMs.** Los nodos de Postgres y MongoDB me dejaban leer y escribir estado de sesión sin escribir una sola línea de data-access.
-
-*(Esto es un stub. El artículo completo — con diagramas de workflow, la metáfora fábrica/tren/reconciliador aplicada a chatbots, y qué fue lo que más dolió romper — está en progreso.)*

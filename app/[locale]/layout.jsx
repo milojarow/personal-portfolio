@@ -1,25 +1,27 @@
-import { Cormorant_Garamond, Plus_Jakarta_Sans } from "next/font/google";
+import { Plus_Jakarta_Sans, Lato } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { routing } from "@/i18n/routing";
+import Banner from "@/components/layout/Banner";
 import Nav from "@/components/layout/Nav";
+import Sidebar from "@/components/layout/Sidebar";
 import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
-const cormorant = Cormorant_Garamond({
+const jakarta = Plus_Jakarta_Sans({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700", "800"],
   display: "swap",
 });
 
-const jakarta = Plus_Jakarta_Sans({
+const lato = Lato({
   variable: "--font-body",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "700"],
   display: "swap",
 });
 
@@ -49,14 +51,21 @@ export default async function LocaleLayout({ children, params }) {
   return (
     <html
       lang={locale}
-      data-theme="rolando-light"
-      className={`${cormorant.variable} ${jakarta.variable}`}
+      data-theme="rolando-dark"
+      className={`${jakarta.variable} ${lato.variable}`}
     >
-      <body className="min-h-screen flex flex-col bg-base-100 text-base-content font-body antialiased">
+      <body className="dt-layout">
         <NextIntlClientProvider>
-          <Nav />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <aside className="dt-sidebar">
+            <Sidebar />
+          </aside>
+          <div className="dt-content">
+            <Banner />
+            <Nav />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
+          <div className="dt-empty" aria-hidden="true" />
         </NextIntlClientProvider>
         <Analytics />
         <SpeedInsights />

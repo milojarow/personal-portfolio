@@ -44,11 +44,11 @@
         "summaryShort": "AI real estate marketing · photos → auto video tour",
         "href": "https://posteacasa.com"
       },
-      "s45-panel": {
-        "title": "S45 Panel",
-        "summary": "Local web panel managing isolated VPN-tunneled browser sessions on Linux. Each client gets its own network namespace, WireGuard interface moved in from host, isolated Firefox. FastAPI + HTMX, status derived from live system state.",
+      "pessoa": {
+        "title": "Pessoa",
+        "summary": "Local web panel that manages isolated VPN-tunneled browser sessions on Linux. Each client gets its own network namespace with a WireGuard interface moved in from the host and a Firefox profile that persists across sessions. FastAPI + HTMX, status derived from live system state. Named after Fernando Pessoa, who kept dozens of complete literary identities in parallel — each with its own biography and voice.",
         "summaryShort": "Linux namespaces · WireGuard · browser isolation",
-        "href": "https://github.com/milojarow/s45-panel"
+        "href": "https://github.com/milojarow/pessoa"
       },
       "luna": {
         "title": "Luna CDN",

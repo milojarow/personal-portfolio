@@ -44,11 +44,11 @@
         "summaryShort": "Marketing inmobiliario con IA · fotos → video tour",
         "href": "https://posteacasa.com"
       },
-      "s45-panel": {
-        "title": "S45 Panel",
-        "summary": "Panel local para manejar sesiones de navegación aisladas con VPN en Linux. Cada cliente tiene su propio namespace de red, interface WireGuard movida desde el host, Firefox aislado. FastAPI + HTMX, estado derivado del sistema en vivo.",
+      "pessoa": {
+        "title": "Pessoa",
+        "summary": "Panel local que maneja sesiones de navegación aisladas con VPN en Linux. Cada cliente vive en su propio namespace de red, con una interface WireGuard movida desde el host y un perfil de Firefox que persiste entre sesiones. FastAPI + HTMX, estado derivado del sistema en vivo. Nombrado en honor a Fernando Pessoa, que mantenía en paralelo docenas de identidades literarias completas — cada una con su propia biografía y voz.",
         "summaryShort": "Namespaces de Linux · WireGuard · navegación aislada",
-        "href": "https://github.com/milojarow/s45-panel"
+        "href": "https://github.com/milojarow/pessoa"
       },
       "luna": {
         "title": "Luna CDN",

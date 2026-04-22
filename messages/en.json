@@ -26,7 +26,6 @@
     "heading": "Work",
     "intro": "All projects, grouped. The three starred ones are featured on the home page.",
     "categories": {
-      "current": "Current work",
       "saas": "Production SaaS",
       "internal": "Internal tools",
       "client": "Client sites"
@@ -54,7 +53,7 @@
       "luna": {
         "title": "Luna CDN",
         "summary": "Self-hosted media CDN at luna.solutions45.com. Upload/delete endpoints with API key auth, blob storage, used as the image backbone for every other project. No public UI — API only.",
-        "href": ""
+        "href": "https://github.com/milojarow/luna-visor"
       },
       "solutions45": {
         "title": "Solutions45",
@@ -78,7 +77,7 @@
       },
       "gocha": {
         "title": "Autopartes Gocha",
-        "summary": "Auto parts storefront — my current project, in active development.",
+        "summary": "Auto parts storefront. Catalog, search, contact flow.",
         "href": "https://autopartesgocha.com"
       }
     }

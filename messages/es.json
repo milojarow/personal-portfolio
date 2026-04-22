@@ -26,7 +26,6 @@
     "heading": "Trabajo",
     "intro": "Todos los proyectos, agrupados. Los tres destacados aparecen en la página de inicio.",
     "categories": {
-      "current": "Trabajo actual",
       "saas": "SaaS en producción",
       "internal": "Herramientas internas",
       "client": "Sitios de cliente"
@@ -54,7 +53,7 @@
       "luna": {
         "title": "Luna CDN",
         "summary": "CDN propio de media en luna.solutions45.com. Endpoints de upload/delete con autenticación por API key, almacenamiento de blobs, es la columna vertebral de imágenes del resto de los proyectos. Sin UI pública — solo API.",
-        "href": ""
+        "href": "https://github.com/milojarow/luna-visor"
       },
       "solutions45": {
         "title": "Solutions45",
@@ -78,7 +77,7 @@
       },
       "gocha": {
         "title": "Autopartes Gocha",
-        "summary": "Sitio de autopartes — mi proyecto actual, en desarrollo activo.",
+        "summary": "Sitio de autopartes. Catálogo, búsqueda y flujo de contacto.",
         "href": "https://autopartesgocha.com"
       }
     }

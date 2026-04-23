@@ -114,20 +114,20 @@ export default async function HomePage({ params }) {
       <section id="tools" className="section">
         <h2 className="section-title">{t("toolsHeading")}</h2>
         <div className="body-prose">
+          <p>{t("toolsBody")}</p>
           <Image
             src="/logos-tools.png"
             alt={t("toolsImageAlt")}
             width={666}
             height={375}
             style={{
-              float: "right",
-              width: "260px",
+              display: "block",
+              margin: "1.25rem auto 0",
+              width: "100%",
+              maxWidth: "480px",
               height: "auto",
-              marginLeft: "1.25rem",
-              marginTop: "-1rem",
             }}
           />
-          <p>{t("toolsBody")}</p>
         </div>
       </section>
     </div>

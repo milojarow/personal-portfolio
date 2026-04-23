@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getFeaturedProjects } from "@/lib/work";
 import { getAllNotes } from "@/lib/notes";
@@ -113,6 +114,19 @@ export default async function HomePage({ params }) {
       <section id="tools" className="section">
         <h2 className="section-title">{t("toolsHeading")}</h2>
         <div className="body-prose">
+          <Image
+            src="/logos-tools.png"
+            alt={t("toolsImageAlt")}
+            width={666}
+            height={375}
+            style={{
+              float: "right",
+              width: "260px",
+              height: "auto",
+              marginLeft: "1.25rem",
+              marginTop: "-1rem",
+            }}
+          />
           <p>{t("toolsBody")}</p>
         </div>
       </section>
